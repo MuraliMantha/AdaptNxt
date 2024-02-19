@@ -1,0 +1,75 @@
+ 
+  .table-container {
+    margin-top: 20px;
+   
+  }
+    
+  table {
+    margin-left: 100px;
+    border-collapse: collapse;
+     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .pagination button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .pagination button:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination button.active {
+    background-color: #008CBA;
+  }
+  .orders-container {
+    margin-left: 20%; /* Ensure content doesn't overlap with Navbar */
+  }
+  .status-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .status-options button {
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .status-options button.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
